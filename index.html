@@ -63,10 +63,9 @@ var display = document.getElementById("chosen");
 //show the amount
 display.innerHTML=slideAmount;
 //get the element
-var vw = new webots.View(document.getElementById("view3d"));
+var vw = document.getElementById("view3d");
 //set the dimensions
-vw.style.width=slideAmount+"px";
-vw.style.height=slideAmount+"px";
+vw.style="width: "+(1883*slideAmount)/100+"px; height: "+(942*slideAmount)/100+"px;";
 }
     </script>
   </head>
