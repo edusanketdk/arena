@@ -12,8 +12,8 @@
         height: 100%;
       }
       #view3d {
-        height: 1050px;
-        width: 1500px;
+        height: 100%;
+        width: 100%;
       }
       
       #chosen {
@@ -30,7 +30,7 @@ margin-left:40px;
 }
 
 #slider {
-margin-left:900px;
+margin-left:10px;
 }
       
       input[type='range'] {
@@ -79,7 +79,7 @@ vw.canvas.height=(942*slideAmount)/100+"";
 </div>
     <div id="slider">
 1% <input id="slide" type="range"
- min="1" max="100" step="5"
+ min="1" max="100" step="5" value="100"
  onchange="updateSlider(this.value)" />
  100%
 <div id="chosen">100</div>
